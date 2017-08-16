@@ -4,7 +4,8 @@ body {
 	margin: 0;
 }
 .container {
-	width: 1170px;
+	width: 100%;
+	max-width: 1170px;
 	margin: 0 auto;
 }
 header {
@@ -70,6 +71,8 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 #order {
 	background: #efefef;
